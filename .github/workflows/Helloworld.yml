@@ -1,24 +1,3 @@
-name: Example
-
-on: push
-
-jobs:
-  greeting:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Greeting!
-        run: echo hello world
-        name: Example
-
-on: push
-
-jobs:
-  greeting:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Greeting!
-        run: echo hello world
-        
 name: Code Checks
 
 on: push
